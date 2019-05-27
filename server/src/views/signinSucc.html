@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+		.main__header {
+			height: 160px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 0 50px;
+		}
+		.logo {
+			font-size: 30px;
+		}
+		.logo > span {
+			font-weight: bold;
+		}
+		.links__wrapper {
+			display: flex;
+		}
+		.links__element {
+			list-style: none;
+			margin-left: 30px;
+		}
+		.links__element a {
+			text-decoration: none;
+			color: #000;
+		}
+		.section__home {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.home__title {
+			font-size: 30px;
+		}
+		form {
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		form * {
+			margin-top: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<header class="main__header">
+		<div class="logo">
+			Test<span>5</span>
+		</div>
+		<div class="links">
+			<ul class="links__wrapper">
+				<li class="links__element"><a href="/signin">Sign in</a></li>
+				<li class="links__element"><a href="/signup">Sign up</a></li>
+				<li class="links__element"><a href="/users">Users</a></li>
+			</ul>
+		</div>
+	</header>
+	<section class="section__home">
+		<h1 class="home__title">Вход в аккаунт</h1>
+		<p>Вы успешно вошли в свой аккаунт</p>
+	</section>
+	<!--<section class="section__gallery">
+		
+	</section>-->
+</body>
+</html>
